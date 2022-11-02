@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+}
+#one li{
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 40px;
+    font-size: 20px;
+    font-family: '[PlayfairDisplay]';
+}
+#one ul{
+    display: flex;
+    justify-content: center;
+}
+#one a{
+    text-decoration:none;
+    color: black;
+}
+#two .banner{
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    height:50vh;
+}
+#two h1{
+    color:white;
+    font-size: 100px;
+    padding-top:150px;
+    font-family: '[PlayfairDisplay]';
+    font-weight:bold;
+}
+#three{
+    margin-top: 50px;
+}
+.product1 {
+    font-family: arial, sans-serif;
+    width: 100%;
+  }
+  
+  .bar{
+    background-color: black;
+    color: white;
+    padding: 10px;
+ 
+}
+.barItems{
+      padding: 20px;
+  }
+.product1{
+    border-bottom: 1px solid #e5e5e5;
+}
+.img1 {
+    border: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 90px;
+    margin: 20px 0;
+}
+
+span{
+    display: block;
+}
+.digit{
+    border: 1px solid #e5e5e5;
+    padding: 5px;
+    text-align: center;
+    width:100px;
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+.cross {
+    border: 1px solid #e5e5e5;
+     padding: 5px 5px;
+     text-align: center;
+     width: 50px;
+     font-size: 20px;
+     font-family: '[PlayfairDisplay]';
+     font-weight:bold;
+     margin: -45px 0px;
+}
+.bottom{
+    font-size: 18px;
+    color: rgb(143, 136, 136);
+    margin:20px 20px;
+}
+.heading{
+    font-size: 20px;
+    font-family: '[PlayfairDisplay]';
+    font-weight: bold;
+    margin: 10px 20px;
+}
+.price1{
+    margin: -40px 20px;
+    font-size: 20px;
+    font-family: '[PlayfairDisplay]';
+    font-weight: bold;
+}
+.first{
+    font-family: '[PlayfairDisplay]';
+}
+
+.shopping a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: '[PlayfairDisplay]';
+    width: 100%;
+  
+}
+.leftarrow{
+    position: absolute;
+    top: 106.5%;
+    left: 19%;
+}
+.shoplink{
+    position: absolute;
+    top: 106%;
+    left: 20%;
+}
+.btnlink{
+    position: absolute;
+    top: 105%;
+    left: 45%;
+}
+.shopping span{
+    display: inline;
+    
+}
+button{
+    background-color: #ff0000;
+    border:none;
+    color:white;
+    font-size: 25px;
+    font-family: 'PlayfairDisplay';
+    width: 350px;
+    padding:10px 30px; 
+
+}
+.col2{
+    border: 1px solid #e2dfdf;
+    font-size: 30px;
+    font-family: 'PlayfairDisplay';
+    width: 300px;
+}
+.col3{
+    margin: 20px 0;
+    border: 1px solid #e2dfdf;
+    font-size: 30px;
+    font-family: 'PlayfairDisplay';
+    width: 300px;
+}
+.col2 td{
+    padding: 10px;
+}
+.col3 td{
+    padding: 10px;
+}
+.col3 .gray{
+    font-size: 20px;
+    color: gray;
+}
+.total{
+    font-size: 25px;
+    color: red;
+}

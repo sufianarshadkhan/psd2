@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+}
+#one li{
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 40px;
+    font-size: 20px;
+    font-family: '[PlayfairDisplay]';
+}
+#one ul{
+    display: flex;
+    justify-content: center;
+}
+#one a{
+    text-decoration:none;
+    color: black;
+}
+#two .banner{
+    background-image: url('../images/banner.png');
+    background-size: cover;
+     height:50vh;
+}
+#two h1{
+    color:white;
+    font-size: 100px;
+    padding-top:150px;
+    font-family: '[PlayfairDisplay]';
+    font-weight:bold;
+    width:100%;
+}
+
+#three{
+    margin: 50px 0;
+}
+#three h2{
+    font-family: '[PlayfairDisplay]';
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+#three p{
+    width: 90%;
+    color: gray;
+}
+
+#seven .container-fluid{
+    background-color:red; 
+}
+#seven .red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+#seven .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seven img{
+    margin-right: 10px;
+}
+#seven p{
+    font-size:20px;
+    color: white;
+    font-family: serif;
+}
+#eight{
+    margin:50px 0;
+}
+#eight .about{
+    margin-right: 30px;
+}
+#eight p{
+    font-size: 18px;
+    color: gray;
+    font-family: '[PlayfairDisplay]';
+    margin: 5px auto;
+}
+#eight h2{
+    margin-bottom:20px;
+    font-family: '[PlayfairDisplay]';
+    font-weight: bold;
+}
+.bord{ 
+    border-bottom:5px solid red;
+    width: 65px;
+    margin-bottom:30px;
+}
+#nine{
+    margin: 50px 0;
+    position: relative; 
+    z-index: 11;
+}
+#nine .arrow{
+    background-color: black;
+    position: absolute;
+    bottom: -25px;
+    left:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: solid #fff;
+    width: 50px;
+    height: 50px;
+}
+#nine img{
+    width: 20px;
+}
+#nine .container-fluid{
+    background-color:black;
+    color:white;
+    padding:20px;
+ 
+}
+#nine .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons .face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.face p{
+    margin-right: 20px;
+    font-weight: bold;
+}
+footer h2{
+    
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    font-family: '[PlayfairDisplay]';
+}
